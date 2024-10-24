@@ -86,7 +86,7 @@ public class Program
             countTry++;
             guess = int.Parse(Console.ReadLine());
         }
-        Console.WriteLine("You have finally guessed right! And the number of guesses was " + countTry + "times!");
+        Console.WriteLine("You have finally guessed right! And the number of guesses was " + countTry + " times!");
     }
     
     

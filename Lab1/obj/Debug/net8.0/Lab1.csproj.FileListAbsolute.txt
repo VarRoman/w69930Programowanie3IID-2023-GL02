@@ -12,3 +12,4 @@ C:\Users\bezsh\Desktop\For studying\Polską uniwersitecia\3 semester\w69930Progr
 C:\Users\bezsh\Desktop\For studying\Polską uniwersitecia\3 semester\w69930Programowanie3IID-2023-GL02\Lab1\obj\Debug\net8.0\Lab1.pdb
 C:\Users\bezsh\Desktop\For studying\Polską uniwersitecia\3 semester\w69930Programowanie3IID-2023-GL02\Lab1\obj\Debug\net8.0\Lab1.genruntimeconfig.cache
 C:\Users\bezsh\Desktop\For studying\Polską uniwersitecia\3 semester\w69930Programowanie3IID-2023-GL02\Lab1\obj\Debug\net8.0\ref\Lab1.dll
+C:\Users\bezsh\Desktop\For studying\Polską uniwersitecia\3 semester\w69930Programowanie3IID-2023-GL02\Lab1\obj\Debug\net8.0\Lab1.sourcelink.json
