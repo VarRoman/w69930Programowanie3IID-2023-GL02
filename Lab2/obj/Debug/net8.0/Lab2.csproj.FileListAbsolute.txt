@@ -1,0 +1,14 @@
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\bin\Debug\net8.0\Lab2.exe
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\bin\Debug\net8.0\Lab2.deps.json
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\bin\Debug\net8.0\Lab2.runtimeconfig.json
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\bin\Debug\net8.0\Lab2.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\bin\Debug\net8.0\Lab2.pdb
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfo.cs
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\refint\Lab2.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.pdb
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\Lab2.genruntimeconfig.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Lab2\obj\Debug\net8.0\ref\Lab2.dll
