@@ -4,12 +4,12 @@ namespace Lab2;
 public class Osoba
 {
     public static int Ilosc = 8;
-    public static string Name { get; set; }
-    public static string Surname { get; set; }
-    public static int Age { get; set; }
-    public static string Pesel { get; set; }
+    private static string Name { get; set; }
+    private static string Surname { get; set; }
+    private static int Age { get; set; }
+    private static string Pesel { get; } = "12345678888";
 
-    public Osoba(string name, string surname, int age, string pesel)
+    public Osoba(string name, string surname, int age)
     {
         Name = name;
         Surname = surname;
@@ -18,7 +18,6 @@ public class Osoba
         {
             Age = 0;
         }
-        Pesel = pesel;
     }
 
     public string Introduction()
@@ -30,7 +29,7 @@ public class Osoba
     {
         //zadanie 1
         Console.WriteLine("\nZadanie #1");
-        Osoba obj = new Osoba("Roman", "Bezshchasnyi", 19, "12345678888");
+        Osoba obj = new Osoba("Roman", "Bezshchasnyi", 19);
         Console.WriteLine(obj.Introduction());
         
         //zadanie 2
