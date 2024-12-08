@@ -4,29 +4,14 @@
     <projectFile>Lab2/Lab2.csproj</projectFile>
     <projectFile>Lab3/Lab3.csproj</projectFile>
     <projectFile>Lab4/Lab4.csproj</projectFile>
+    <projectFile>Lab5/Lab5.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab4/Lab4.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab4/Shape.cs" afterDir="false" />
+    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/Osoba.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Osoba.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/Lab2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/ref/Lab2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/ref/Lab2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/refint/Lab2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/Debug/net8.0/refint/Lab2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +41,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a6b1457cbcf17db31a383ba49ef9bcc786cf3ef77146d997eee499b27a46d/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab2/Osoba.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab4/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -69,18 +55,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Lab2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Executable.Lab2.exe.executor": "Run",
+    ".NET Project.Lab2.executor": "Run",
+    ".NET Project.Lab4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Lab5",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bezsh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77edf109-ce6f-4f6d-804e-f984f95bc9c5" reportId="w69930Programowanie3IID-2023-GL02/qodana/2024-11-18" />
@@ -142,6 +128,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab5" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/Lab5.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Lab2.exe" type="RunExe" factoryName=".NET Executable" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -179,9 +183,21 @@
       <workItem from="1733501669952" duration="346000" />
       <workItem from="1733506651011" duration="1086000" />
       <workItem from="1733534757995" duration="19000" />
+      <workItem from="1733534818630" duration="441000" />
+      <workItem from="1733618632846" duration="1312000" />
     </task>
+    <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
+      <option name="closed" value="true" />
+      <created>1733534892540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733534892540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -193,5 +209,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
   </component>
 </project>
