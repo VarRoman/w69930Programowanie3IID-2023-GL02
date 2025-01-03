@@ -5,13 +5,24 @@
     <projectFile>Lab3/Lab3.csproj</projectFile>
     <projectFile>Lab4/Lab4.csproj</projectFile>
     <projectFile>Lab5/Lab5.csproj</projectFile>
+    <projectFile>Lab6/Lab6.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
+    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Finished with laboratorium #5">
+      <change afterPath="$PROJECT_DIR$/Lab6/Book.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/BookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/IBaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/IBookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/ICreationTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/IEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/IPersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab6/PersonRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +53,17 @@
     <setting file="file://$PROJECT_DIR$/Lab1/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab2/Osoba.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab5/Shape.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/Book.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/BookRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/IBaseRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/ICreationTime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/IEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/IPersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/Person.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab6/PersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -51,22 +73,25 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2ouBZxvOWoU39us1zBXeLTM9CpA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Lab2.exe.executor": "Run",
-    ".NET Project.Lab2.executor": "Run",
-    ".NET Project.Lab4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Lab5",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Lab6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bezsh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77edf109-ce6f-4f6d-804e-f984f95bc9c5" reportId="w69930Programowanie3IID-2023-GL02/qodana/2024-11-18" />
@@ -146,6 +171,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab6" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab6/Lab6.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Lab2.exe" type="RunExe" factoryName=".NET Executable" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -185,6 +228,10 @@
       <workItem from="1733534757995" duration="19000" />
       <workItem from="1733534818630" duration="441000" />
       <workItem from="1733618632846" duration="1312000" />
+      <workItem from="1733623511405" duration="51000" />
+      <workItem from="1734009494794" duration="1321000" />
+      <workItem from="1735898340393" duration="281000" />
+      <workItem from="1735901542294" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <option name="closed" value="true" />
@@ -194,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733534892540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished with laboratorium #5">
+      <option name="closed" value="true" />
+      <created>1733623542644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733623542644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -212,6 +267,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
+    <MESSAGE value="Finished with laboratorium #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished with laboratorium #5" />
   </component>
 </project>

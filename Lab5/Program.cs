@@ -35,7 +35,7 @@ namespace Lab5
     {
         void Create(T entity);
         void Update(T entity);
-        IEnumerable<T> GetAll();
+        List<T> GetAll();
         T Get(TEntity id);
         void Delete(TEntity id);
     }
