@@ -80,19 +80,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.WebApplication1 | #1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt/BlazorApp1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Executable.Lab2.exe.executor": "Run",
+    ".NET Project.Lab2.executor": "Run",
+    ".NET Project.Lab4.executor": "Run",
+    "HTTP Request.WebApplication1 | #1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "project-branch",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt/BlazorApp1",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bezsh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77edf109-ce6f-4f6d-804e-f984f95bc9c5" reportId="w69930Programowanie3IID-2023-GL02/qodana/2024-11-18" />
