@@ -6,23 +6,19 @@
     <projectFile>Lab4/Lab4.csproj</projectFile>
     <projectFile>Lab5/Lab5.csproj</projectFile>
     <projectFile>Lab6/Lab6.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lab7.1/Lab7.1.csproj</projectFile>
+    <projectFile profileName="http">Lab7.1/Lab7.1.csproj</projectFile>
+    <projectFile profileName="https">Lab7.1/Lab7.1.csproj</projectFile>
+    <projectFile>Lab7/Lab7.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Finished with laboratorium #5">
-      <change afterPath="$PROJECT_DIR$/Lab6/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/BookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/IBaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/IBookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/ICreationTime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/IPersonRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab6/PersonRepository.cs" afterDir="false" />
+    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Finished with laboratorium #6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +53,13 @@
     <setting file="file://$PROJECT_DIR$/Lab5/Shape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/Book.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/BookRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab6/IBaseRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab6/IBookRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab6/ICreationTime.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab6/IEntity.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Lab6/IPersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/PersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -80,24 +75,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Lab6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Executable.Lab2.exe.executor": "Run",
+    ".NET Project.Lab2.executor": "Run",
+    ".NET Project.Lab4.executor": "Run",
+    "HTTP Request.WebApplication1 | #1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt/BlazorApp1",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bezsh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77edf109-ce6f-4f6d-804e-f984f95bc9c5" reportId="w69930Programowanie3IID-2023-GL02/qodana/2024-11-18" />
     </option>
   </component>
-  <component name="RunManager" selected=".NET Executable.Lab2.exe">
+  <component name="RunManager" selected="HTTP Request.WebApplication1 | #1">
     <configuration name="Lab2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -189,6 +185,72 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab7" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab7/Lab7.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Lab7/WebApplication1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab7.1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lab7.1/Lab7.1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab7.1: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lab7.1/Lab7.1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab7.1: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lab7.1/Lab7.1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Lab2.exe" type="RunExe" factoryName=".NET Executable" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -203,6 +265,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.WebApplication1 | #1" />
         <item itemvalue=".NET Executable.Lab2.exe" />
       </list>
     </recent_temporary>
@@ -231,7 +294,12 @@
       <workItem from="1733623511405" duration="51000" />
       <workItem from="1734009494794" duration="1321000" />
       <workItem from="1735898340393" duration="281000" />
-      <workItem from="1735901542294" duration="344000" />
+      <workItem from="1735901542294" duration="800000" />
+      <workItem from="1735940028075" duration="379000" />
+      <workItem from="1735940801716" duration="150000" />
+      <workItem from="1735941072111" duration="674000" />
+      <workItem from="1736007375924" duration="31000" />
+      <workItem from="1736007653898" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <option name="closed" value="true" />
@@ -249,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733623542644</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished with laboratorium #6">
+      <option name="closed" value="true" />
+      <created>1735902199128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735902199128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -268,6 +344,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
     <MESSAGE value="Finished with laboratorium #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished with laboratorium #5" />
+    <MESSAGE value="Finished with laboratorium #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished with laboratorium #6" />
   </component>
 </project>
