@@ -15,11 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Finished with laboratorium #6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/obj/Debug/net8.0/Lab6.AssemblyInfoInputs.cache" afterDir="false" />
-    </list>
+    <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Changed tha branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +25,11 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="project-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,6 +56,10 @@
     <setting file="file://$PROJECT_DIR$/Lab6/BookRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/PersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab7.1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Team.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Tournament.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -75,19 +80,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Lab2.exe.executor": "Run",
-    ".NET Project.Lab2.executor": "Run",
-    ".NET Project.Lab4.executor": "Run",
-    "HTTP Request.WebApplication1 | #1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt/BlazorApp1",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.WebApplication1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt/BlazorApp1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\bezsh\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77edf109-ce6f-4f6d-804e-f984f95bc9c5" reportId="w69930Programowanie3IID-2023-GL02/qodana/2024-11-18" />
@@ -267,6 +272,8 @@
       <list>
         <item itemvalue="HTTP Request.WebApplication1 | #1" />
         <item itemvalue=".NET Executable.Lab2.exe" />
+        <item itemvalue="HTTP Request.WebApplication1 | #1" />
+        <item itemvalue=".NET Executable.Lab2.exe" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +307,7 @@
       <workItem from="1735941072111" duration="674000" />
       <workItem from="1736007375924" duration="31000" />
       <workItem from="1736007653898" duration="201000" />
+      <workItem from="1736013662182" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <option name="closed" value="true" />
@@ -325,7 +333,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735902199128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created and set the environment for laboratorium #7 and the project">
+      <option name="closed" value="true" />
+      <created>1736013840642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736013840643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created basic objects for project">
+      <option name="closed" value="true" />
+      <created>1736013877641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736013877641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed tha branch">
+      <option name="closed" value="true" />
+      <created>1736014061133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736014061133</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -345,6 +377,9 @@
     <MESSAGE value="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4" />
     <MESSAGE value="Finished with laboratorium #5" />
     <MESSAGE value="Finished with laboratorium #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished with laboratorium #6" />
+    <MESSAGE value="Created and set the environment for laboratorium #7 and the project" />
+    <MESSAGE value="Created basic objects for project" />
+    <MESSAGE value="Changed tha branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed tha branch" />
   </component>
 </project>
