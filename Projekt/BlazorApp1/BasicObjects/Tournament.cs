@@ -1,6 +1,6 @@
-﻿namespace BlazorApp1;
-//
+﻿namespace BlazorApp1.BasicObjects;
+
 public class Tournament
 {
-    private List<Team> _teams = new List<Team>;
+    private List<Team> _teams = new List<Team>();
 }

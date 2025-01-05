@@ -1,13 +1,11 @@
-﻿namespace BlazorApp1;
+﻿using System.Globalization;
 
-public class Player
+namespace BlazorApp1.BasicObjects;
 
-{
-    private string Name { get; set; }
-    private string Surname { get; set; }
-    private int Age { get; set; }
-    private string Gender { get; set; }
-    private string Position { get; set; }
+public class Player : Person
+{ 
+    private string TeamName { get; set; }
+    
     private Dictionary<string, double> _playerInfromationStatistics = new Dictionary<string, double>
     {
         { "Attacks", 0 },
@@ -21,15 +19,12 @@ public class Player
         { "Serves", 0 },
         {"Blocks", 0}
     };
-    
-    
-    public Player(string name, string surname, int age, string gender, string position)
+
+
+    public Player(string name, string surname, int age, string gender, string wherefrom, string qualification, 
+        string teamName) : base(name, surname, age, gender, wherefrom, qualification)
     {
-        Name = name;
-        Surname = surname;
-        Age = age;
-        Gender = gender;
-        Position = position;
+        TeamName = teamName;
     }
 
     public double GetPlayerInformationStatistics(string key)
@@ -58,6 +53,17 @@ public class Player
             total += _playerInfromationPoints[key];
         }
         return total;
+    }
+    
+    public override string GetOverallInformation()
+    {
+        return $"{base.GetOverallInformation()}\n" +
+               $"Teamname: ${TeamName}\n\n" +
+               $"Statistics:\n" +
+               $"Attacks: {GetPlayerInformationStatistics("Attacks").ToString(CultureInfo.InvariantCulture)}\n" +
+               $"Receives: {GetPlayerInformationStatistics("Receives").ToString(CultureInfo.InvariantCulture)}\n" +
+               $"Serves: {GetPlayerInformationStatistics("Serves").ToString(CultureInfo.InvariantCulture)}\n\n" +
+               $"Total points scored: ${GetPlayerInformationPointsTotal().ToString()}";
     }
     
 }
