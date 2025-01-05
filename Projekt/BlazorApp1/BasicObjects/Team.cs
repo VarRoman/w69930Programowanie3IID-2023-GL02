@@ -2,10 +2,9 @@
 
 public class Team
 {
-    private string TeamName { get; set; }
+    public string TeamName { get; set; }
     private Manager TeamManager { get; set; }
-    private int RoundScore { get; set; }
-    private int TeamTournamentPlace { get; set; }
+    public int TeamTournamentPlace { get; set; }
     private string TeamRegistrationPlace { get; set; }
     private string[] TeamSponsors { get; set; }
 
