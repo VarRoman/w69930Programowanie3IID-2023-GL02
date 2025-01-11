@@ -10,14 +10,27 @@
     <projectFile profileName="http">Lab7.1/Lab7.1.csproj</projectFile>
     <projectFile profileName="https">Lab7.1/Lab7.1.csproj</projectFile>
     <projectFile>Lab7/Lab7.csproj</projectFile>
+    <projectFile>Projekt1.1/Projekt1.1.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="Changed tha branch">
-      <change afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/ref/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/ref/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/refint/BlazorApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/refint/BlazorApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/~$ojekt_Roman_Bezshchasnyi_w69930.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +73,11 @@
     <setting file="file://$PROJECT_DIR$/Lab6/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab6/PersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lab7.1/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Person.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Team.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Tournament.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Team.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Tournament.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt/BlazorApp1/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -94,7 +107,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "project-branch",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt",
+    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt1.1",
     "settings.editor.selected.configurable": "preferences.sourceCode.C#"
   }
 }]]></component>
@@ -208,6 +221,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Projekt1.1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Projekt1.1/Projekt1.1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebApplication1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Lab7/WebApplication1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -308,6 +339,7 @@
       <workItem from="1736007375924" duration="31000" />
       <workItem from="1736007653898" duration="201000" />
       <workItem from="1736013662182" duration="423000" />
+      <workItem from="1736631597825" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <option name="closed" value="true" />
