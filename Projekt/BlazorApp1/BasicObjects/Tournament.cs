@@ -29,7 +29,7 @@ public class Tournament
     
     
     // Defining empty Dictionary-property for winners
-    public Dictionary<int, Team> Winners { get; set; }
+    public Dictionary<int, Team> Winners { get; set; } = new Dictionary<int, Team>();
     
     
     // Basic method for addding teams on the first_cycle
@@ -105,7 +105,7 @@ public class Tournament
         
         
         // quarter_final -> semi_final
-        for (int i = 0; i < TeamScheduleInfo["quarter_final"].Count / 2 - 1; i++)
+        for (int i = 0; i < TeamScheduleInfo["quarter_final"].Count / 2; i++)
         {
             var i2 = i;
             Match(TeamScheduleInfo["quarter_final"][i2 * 2], 
@@ -120,13 +120,20 @@ public class Tournament
         // shuffling the teams
         TeamScheduleInfo["semi_final"] = TeamScheduleInfo["semi_final"].OrderBy(x => rnd.Next()).ToList();
         
-        // semi_final -> final
+        // semi_final -> final and final
         Match(TeamScheduleInfo["semi_final"][0], TeamScheduleInfo["semi_final"][1], "final");
-        Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], "final");
-        
-        // final
-        Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["semi_final"][1].Loser, 
-            "prizers");
+        if (TeamScheduleInfo["semi_final"].Count % 2 == 1)
+        {
+            TeamScheduleInfo["final"].Add(TeamScheduleInfo["semi_final"][^1]);
+            Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["quarter_final"][0].Loser, 
+                "prizers");
+        }
+        else
+        {
+            Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], "final");
+            Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["semi_final"][1].Loser, 
+                "prizers");
+        }
         
         Match(TeamScheduleInfo["final"][0], TeamScheduleInfo["final"][1], "prizers");
         

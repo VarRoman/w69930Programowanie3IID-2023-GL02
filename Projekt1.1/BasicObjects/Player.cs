@@ -82,16 +82,16 @@ public class Player : Person
         double score = rnd.NextDouble();
         if (score < 0.33)
         {
-            _playerInfromationStatistics["Serves"]++;
+            _playerInfromationPoints["Serves"]++;
         }
 
         if (score >= 0.33 && score < 0.66)
         {
-            _playerInfromationStatistics["Blocks"]++;
+            _playerInfromationPoints["Blocks"]++;
         }
         if (score >= 0.66)
         {
-            _playerInfromationStatistics["Attacks"]++;
+            _playerInfromationPoints["Attacks"]++;
         }
     }
 }

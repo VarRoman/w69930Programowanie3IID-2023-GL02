@@ -14,12 +14,10 @@ internal class Program
         {
             tournament.AddTeamFirstCycle(team);
         }
-
-        // Запуск турніру
+        
         Console.WriteLine("Rozpoczynamy turniej!");
         tournament.StartTournament();
-
-        // Виведення результатів
+        
         Console.WriteLine("Wyniki turnieju:");
         foreach (var winner in tournament.Winners)
         {
