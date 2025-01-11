@@ -1,0 +1,15 @@
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Projekt1.1.exe
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Projekt1.1.deps.json
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Projekt1.1.runtimeconfig.json
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Projekt1.1.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Projekt1.1.pdb
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.AssemblyInfoInputs.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.AssemblyInfo.cs
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.csproj.CoreCompileInputs.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.sourcelink.json
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\refint\Projekt1.1.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.pdb
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.genruntimeconfig.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\ref\Projekt1.1.dll
