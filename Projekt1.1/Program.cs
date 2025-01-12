@@ -23,32 +23,39 @@ internal class Program
     private static void AddTeam()
     {
         Console.Clear();
-        Console.WriteLine("Wybierz drużynę z rezerwy, aby dodać:");
-        var reserveTeams = _data.ReserveTeams;
-        for (int i = 0; i < reserveTeams.Count; i++)
+        if (_tournament.Winners.Count == 0)
         {
-            Console.WriteLine($"{i + 1}. {reserveTeams[i].TeamName}");
-        }
-        Console.Write("Wybierz numer drużyny: ");
-        if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= reserveTeams.Count)
-        {
-            var selectedTeam = reserveTeams[choice - 1];
-            if (!_teams.Contains(selectedTeam))
+            Console.WriteLine("Wybierz drużynę z rezerwy, aby dodać:");
+            var reserveTeams = _data.ReserveTeams;
+            for (int i = 0; i < reserveTeams.Count; i++)
             {
-                _teams.Add(selectedTeam);
-                Console.WriteLine($"Drużyna {selectedTeam.TeamName} została dodana do turnieju.");
+                Console.WriteLine($"{i + 1}. {reserveTeams[i].TeamName}");
+            }
+            Console.Write("Wybierz numer drużyny: ");
+            if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= reserveTeams.Count)
+            {
+                var selectedTeam = reserveTeams[choice - 1];
+                if (!_teams.Contains(selectedTeam))
+                {
+                    _teams.Add(selectedTeam);
+                    Console.WriteLine($"Drużyna {selectedTeam.TeamName} została dodana do turnieju.");
+                }
+                else
+                {
+                    Console.WriteLine("Drużyna już była podana wcześniej.");
+                }
             }
             else
             {
-                Console.WriteLine("Drużyna już była podana wcześniej.");
+                Console.WriteLine("Nieprawidłowy wybór.");
             }
+            Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
+            Console.ReadKey();
         }
         else
         {
-            Console.WriteLine("Nieprawidłowy wybór.");
+            Console.WriteLine("Turniej już się odbył.");
         }
-        Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
-        Console.ReadKey();
     }
 
     private static void StartTournament()
@@ -61,7 +68,8 @@ internal class Program
             }
 
             Console.WriteLine("Rozpoczynamy turniej!");
-            _tournament.StartTournament();
+            Task tournament = Task.Run(() => _tournament.StartTournament());
+            Task.WaitAll(tournament);
             Console.WriteLine("Turniej już się skończył.");
         }
         else
@@ -136,7 +144,7 @@ internal class Program
         while (!exit)
         {
             Console.Clear();
-            Console.WriteLine("=== Turniej Siatkarski ===");
+            Console.WriteLine("   --   Turniej Siatkarski   --   ");
             Console.WriteLine("1. Wyświetl wszystkie drużyny");
             Console.WriteLine("2. Wyświetl informacje o graczu lub trenerze z pewnej drużyny");
             Console.WriteLine("3. Dodaj drużynę z rezerwy");
@@ -172,6 +180,5 @@ internal class Program
             }
         }
         Console.WriteLine("Dziękujemy za skorzystanie z aplikacji. Do zobaczenia!");
-        Console.ReadKey();
     }
 }
