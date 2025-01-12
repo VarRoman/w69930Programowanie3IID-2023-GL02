@@ -8,7 +8,7 @@ public class Player : Person
     private Dictionary<string, double> _playerInfromationStatistics = new Dictionary<string, double>
     {
         { "Attacks", 0 },
-        { "Receive", 0 },
+        { "Receives", 0 },
         { "Serves", 0 },
     };
     
@@ -66,11 +66,11 @@ public class Player : Person
     // Override method for Player
     public override string GetOverallInformation()
     {
-        return $"{base.GetOverallInformation()}\n\n" +
+        return $"{base.GetOverallInformation()}\n" +
                $"Statistics:\n" +
-               $"Attacks: {GetPlayerInformationStatistics("Attacks").ToString(CultureInfo.InvariantCulture)}\n" +
-               $"Receives: {GetPlayerInformationStatistics("Receives").ToString(CultureInfo.InvariantCulture)}\n" +
-               $"Serves: {GetPlayerInformationStatistics("Serves").ToString(CultureInfo.InvariantCulture)}\n\n" +
+               $"Attacks: {GetPlayerInformationPoints("Attacks")}\n" +
+               $"Blocks: {GetPlayerInformationPoints("Blocks")}\n" +
+               $"Serves: {GetPlayerInformationPoints("Serves")}\n\n" +
                $"Total points scored: {GetPlayerInformationPointsTotal().ToString()}";
     }
     

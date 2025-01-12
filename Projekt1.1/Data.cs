@@ -3,7 +3,7 @@ using BasicObjects;
 
 public class Data
 {
-    private List<Team> teams = new List<Team>
+    private List<Team> _teams = new List<Team>
     {
         new Team(
             "Wilki Warszawy",
@@ -163,9 +163,71 @@ public class Data
         )
     };
 
+    private List<Team> _reserveTeams = new List<Team>
+    {
+        new Team(
+        "Wilki Bydgoszczy",
+        new[] {"Sponsor25", "Sponsor26"},
+        "Bydgoszcz",
+        new Player("Maciej", "Grabowski", 24, "M", "Bydgoszcz", "Profesjonalista", "Wilki Bydgoszczy"),
+        new Player("Tomasz", "Zawadzki", 23, "M", "Toruń", "Zaawansowany", "Wilki Bydgoszczy"),
+        new Player("Karol", "Błaszczyk", 28, "M", "Gdańsk", "Ekspert", "Wilki Bydgoszczy"),
+        new Player("Michał", "Kołodziej", 25, "M", "Poznań", "Profesjonalista", "Wilki Bydgoszczy"),
+        new Player("Damian", "Król", 30, "M", "Łódź", "Ekspert", "Wilki Bydgoszczy"),
+        new Player("Sebastian", "Żukowski", 26, "M", "Warszawa", "Zaawansowany", "Wilki Bydgoszczy"),
+        new Player("Rafał", "Kozioł", 27, "M", "Kraków", "Profesjonalista", "Wilki Bydgoszczy"),
+        new Manager("Andrzej", "Lewicki", 40, "M", "Bydgoszcz", "Trener", "Wilki Bydgoszczy", 48)
+        ),
+        new Team(
+            "Orły Łodzi",
+            new[] {"Sponsor27", "Sponsor28"},
+            "Łódź",
+            new Player("Grzegorz", "Piątek", 26, "M", "Łódź", "Profesjonalista", "Orły Łodzi"),
+            new Player("Mariusz", "Górka", 22, "M", "Szczecin", "Zaawansowany", "Orły Łodzi"),
+            new Player("Krzysztof", "Sosnowski", 28, "M", "Warszawa", "Ekspert", "Orły Łodzi"),
+            new Player("Radosław", "Lisowski", 23, "M", "Gdańsk", "Profesjonalista", "Orły Łodzi"),
+            new Player("Paweł", "Jabłoński", 29, "M", "Poznań", "Ekspert", "Orły Łodzi"),
+            new Player("Łukasz", "Borkowski", 25, "M", "Kraków", "Zaawansowany", "Orły Łodzi"),
+            new Player("Adrian", "Kamiński", 27, "M", "Lublin", "Profesjonalista", "Orły Łodzi"),
+            new Manager("Zbigniew", "Kowal", 42, "M", "Łódź", "Trener", "Orły Łodzi", 54)
+        ),
+        new Team(
+            "Rekiny Poznania",
+            new[] {"Sponsor29", "Sponsor30"},
+            "Poznań",
+            new Player("Adam", "Czerwiński", 24, "M", "Poznań", "Profesjonalista", "Rekiny Poznania"),
+            new Player("Piotr", "Szymczak", 23, "M", "Łódź", "Zaawansowany", "Rekiny Poznania"),
+            new Player("Bartłomiej", "Urban", 28, "M", "Warszawa", "Ekspert", "Rekiny Poznania"),
+            new Player("Konrad", "Kołodziej", 26, "M", "Kraków", "Profesjonalista", "Rekiny Poznania"),
+            new Player("Dawid", "Nowakowski", 31, "M", "Gdańsk", "Ekspert", "Rekiny Poznania"),
+            new Player("Eryk", "Sikora", 24, "M", "Toruń", "Zaawansowany", "Rekiny Poznania"),
+            new Player("Maciej", "Flis", 27, "M", "Lublin", "Profesjonalista", "Rekiny Poznania"),
+            new Manager("Rafał", "Kurek", 39, "M", "Poznań", "Trener", "Rekiny Poznania", 52)
+        ),
+        new Team(
+            "Smoki Warszawy",
+            new[] {"Sponsor31", "Sponsor32"},
+            "Warszawa",
+            new Player("Tomasz", "Malinowski", 25, "M", "Warszawa", "Profesjonalista", "Smoki Warszawy"),
+            new Player("Jan", "Lewandowski", 22, "M", "Poznań", "Zaawansowany", "Smoki Warszawy"),
+            new Player("Sebastian", "Adamski", 27, "M", "Łódź", "Ekspert", "Smoki Warszawy"),
+            new Player("Radosław", "Wójcik", 24, "M", "Kraków", "Profesjonalista", "Smoki Warszawy"),
+            new Player("Łukasz", "Zieliński", 30, "M", "Gdańsk", "Ekspert", "Smoki Warszawy"),
+            new Player("Karol", "Mazur", 26, "M", "Toruń", "Zaawansowany", "Smoki Warszawy"),
+            new Player("Paweł", "Stankiewicz", 29, "M", "Lublin", "Profesjonalista", "Smoki Warszawy"),
+            new Manager("Wojciech", "Rybak", 43, "M", "Warszawa", "Trener", "Smoki Warszawy", 60)
+        )
+    };
+
     public List<Team> Teams
     {
-        get => teams;
-        set => teams.AddRange(value);
+        get => _teams;
+        set => _teams.AddRange(value);
+    }
+
+    public List<Team> ReserveTeams
+    {
+        get => _reserveTeams;
+        set => _reserveTeams.AddRange(value);
     }
 }

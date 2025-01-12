@@ -53,6 +53,8 @@ public class Tournament
     public void Match(Team firstTeam, Team secondTeam, string currentcycleDestinatination, string cycleDestination)
     {
         MatchInfo match = new MatchInfo(firstTeam, secondTeam);
+        Console.WriteLine("Gra w procesie");
+        Thread.Sleep(3000);
         if (cycleDestination == "prizers")
         {
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
@@ -63,6 +65,13 @@ public class Tournament
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
         }
         MatchInfoSchedule[currentcycleDestinatination].Add(match);
+        
+        Console.WriteLine($"Wynik gry\n{firstTeam.TeamName} : {secondTeam.TeamName}\n");
+        for (int i = 1; i <= match.TeamsScores.Count; i++)
+        {
+            Console.WriteLine($"#{i}   --    {match.TeamsScores[i][firstTeam.TeamName]} : " +
+                              $"{match.TeamsScores[i][secondTeam.TeamName]}   --    ");
+        }
     }
     
     
@@ -155,5 +164,8 @@ public class Tournament
         {
             Winners.Add(team.TeamTournamentPlace, team);
         }
+
+        Console.ReadKey();
+        Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
     }
 }

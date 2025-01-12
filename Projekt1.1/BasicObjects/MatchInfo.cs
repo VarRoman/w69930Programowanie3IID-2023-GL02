@@ -34,8 +34,7 @@ public class MatchInfo
         PointsScores[Team1.TeamName] = 0;
         PointsScores[Team2.TeamName] = 0;
         
-        while ((Math.Abs(PointsScores[Team1.TeamName] - PointsScores[Team2.TeamName]) < 2) &&
-               (PointsScores.Values.Max() < 25))
+        while ((Math.Abs(PointsScores[Team1.TeamName] - PointsScores[Team2.TeamName]) < 2) || (PointsScores.Values.Max() < 25))
         {
             double random = _rnd.NextDouble();
             if (random < 0.5)
@@ -70,7 +69,7 @@ public class MatchInfo
         {
             DoTheRoundAuto();
             count++;
-            TeamsScores.Add(count, PointsScores);
+            TeamsScores.Add(count, new(PointsScores));
         }
 
         if (RoundsScores.Values.Max() == RoundsScores[Team1.TeamName])
@@ -95,22 +94,22 @@ public class MatchInfo
             team.GetPlayerByPosition("Opposite").RandomScore();
         }
 
-        if (random >= 0.2 && random < 0.4)
+        else if (random >= 0.2 && random < 0.4)
         {
             team.GetPlayerByPosition("Middle1").RandomScore();
         }
         
-        if (random >= 0.4 && random < 0.6)
+        else if (random >= 0.4 && random < 0.6)
         {
             team.GetPlayerByPosition("Middle2").RandomScore();
         }
         
-        if (random >= 0.6 && random < 0.8)
+        else if (random >= 0.6 && random < 0.8)
         {
             team.GetPlayerByPosition("Outside1").RandomScore();
         }
         
-        if (random >= 0.8)
+        else if (random >= 0.8)
         {
             team.GetPlayerByPosition("Outside2").RandomScore();
         }
