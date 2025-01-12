@@ -1,10 +1,14 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿using System.Text.RegularExpressions;
+
+namespace Projekt1._1.BasicObjects;
 using System;
 using System.Threading.Tasks;
 
 // Tournament class with all its main properties and methods(random results generating are also included)
 public class Tournament
 {
+    private static readonly object _lock = new object();
+    
     // Dictionary-property for getting match results
     public Dictionary<string, List<MatchInfo>> MatchInfoSchedule = new Dictionary<string, List<MatchInfo>>()
     {
@@ -53,8 +57,8 @@ public class Tournament
     public void Match(Team firstTeam, Team secondTeam, string currentcycleDestinatination, string cycleDestination)
     {
         MatchInfo match = new MatchInfo(firstTeam, secondTeam);
-        Console.WriteLine("Gra w procesie");
-        Thread.Sleep(3000);
+        Console.WriteLine($"\nGra {firstTeam.TeamName} : {secondTeam.TeamName} w procesie");
+        Thread.Sleep(2000);
         if (cycleDestination == "prizers")
         {
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
@@ -65,49 +69,60 @@ public class Tournament
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
         }
         MatchInfoSchedule[currentcycleDestinatination].Add(match);
-        
-        Console.WriteLine($"Wynik gry\n{firstTeam.TeamName} : {secondTeam.TeamName}\n");
-        for (int i = 1; i <= match.TeamsScores.Count; i++)
+
+        lock (_lock)
         {
-            Console.WriteLine($"#{i}   --    {match.TeamsScores[i][firstTeam.TeamName]} : " +
-                              $"{match.TeamsScores[i][secondTeam.TeamName]}   --    ");
+            Console.WriteLine($"\n        Wynik gry\n{firstTeam.TeamName} : {secondTeam.TeamName}\n");
+            for (int i = 1; i <= match.TeamsScores.Count; i++)
+            {
+                Console.WriteLine($"#{i}   --    {match.TeamsScores[i][firstTeam.TeamName]} : " +
+                                  $"{match.TeamsScores[i][secondTeam.TeamName]}   --    ");
+            }
         }
     }
-    
+
+    public void PlayingTwoCourts(string currentcycleDestinatination, string cycleDestination)
+    {
+        for (int i = 0; i < TeamScheduleInfo[currentcycleDestinatination].Count / 4; i++)
+        {
+            var i1 = i;
+            Task task1 = new Task(() => Match(TeamScheduleInfo[currentcycleDestinatination][i1 * 4], 
+                TeamScheduleInfo[currentcycleDestinatination][i1 * 4 + 1], currentcycleDestinatination, 
+                cycleDestination));
+            Task task2 = new Task(() => Match(TeamScheduleInfo[currentcycleDestinatination][i1 * 4 + 2], 
+                TeamScheduleInfo[currentcycleDestinatination][i1 * 4 + 3], currentcycleDestinatination, 
+                cycleDestination));
+
+            task1.Start();
+            task2.Start();
+            Task.WaitAll(task1, task2);
+        }
+
+        if (TeamScheduleInfo[currentcycleDestinatination].Count % 4 > 1)
+        {
+            Task task3 = new Task(() =>Match(TeamScheduleInfo[currentcycleDestinatination][^1],
+                TeamScheduleInfo[currentcycleDestinatination][^2], currentcycleDestinatination, 
+                cycleDestination));
+            task3.Start();
+            if (TeamScheduleInfo[currentcycleDestinatination].Count % 4 - 2 == 1)
+            {
+                TeamScheduleInfo[cycleDestination].Add(TeamScheduleInfo[currentcycleDestinatination][^3]);
+            }
+            Task.WaitAll(task3);
+        }
+
+        if (TeamScheduleInfo[currentcycleDestinatination].Count % 4 == 1)
+        {
+            TeamScheduleInfo[cycleDestination].Add(TeamScheduleInfo[currentcycleDestinatination][^1]);
+        }
+    }
     
     // Main method for getting random tournament results
     public void StartTournament()
     {
         Random rnd = new Random();
         // first_cycle -> quarter_final
-        for (int i = 0; i < TeamScheduleInfo["first_cycle"].Count / 4; i++)
-        {
-            var i1 = i;
-            Thread thread1 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][i1 * 4], 
-                        TeamScheduleInfo["first_cycle"][i1 * 4 + 1], "first_cycle", 
-                        "quarter_final"));
-            Thread thread2 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][i1 * 4 + 2], 
-                        TeamScheduleInfo["first_cycle"][i1 * 4 + 3], "first_cycle", 
-                        "quarter_final"));
-
-            thread1.Start();
-            thread2.Start();
-
-            thread1.Join();
-            thread2.Join();
-        }
-
-        if (TeamScheduleInfo["first_cycle"].Count % 4 > 1)
-        {
-            Thread thread1 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][^1],
-                TeamScheduleInfo["first_cycle"][^2], "first_cycle", "quarter_final"));
-            if (TeamScheduleInfo["first_cycle"].Count % 4 - 2 == 1)
-            {
-                TeamScheduleInfo["quarter_final"].Add(TeamScheduleInfo["first_cycle"][^3]);
-            }
-            thread1.Start();
-            thread1.Join();
-        }
+        PlayingTwoCourts("first_cycle", "quarter_final");
         
         
         // shuffling the teams
@@ -115,38 +130,34 @@ public class Tournament
         
         
         // quarter_final -> semi_final
-        for (int i = 0; i < TeamScheduleInfo["quarter_final"].Count / 2; i++)
-        {
-            var i2 = i;
-            Match(TeamScheduleInfo["quarter_final"][i2 * 2], 
-                TeamScheduleInfo["quarter_final"][i2 * 2 + 1], "quarter_final", 
-                "semi_final");
-        }
-
-        if (TeamScheduleInfo["quarter_final"].Count % 2 == 1)
-        {
-            TeamScheduleInfo["semi_final"].Add(TeamScheduleInfo["quarter_final"][^1]);
-        }
+        PlayingTwoCourts("quarter_final", "semi_final");
+        
         
         // shuffling the teams
         TeamScheduleInfo["semi_final"] = TeamScheduleInfo["semi_final"].OrderBy(x => rnd.Next()).ToList();
         
+        
         // semi_final -> final and final
-        Match(TeamScheduleInfo["semi_final"][0], TeamScheduleInfo["semi_final"][1], "semi_final", 
-            "final");
+        Task task1 = new Task(() => Match(TeamScheduleInfo["semi_final"][0], TeamScheduleInfo["semi_final"][1], 
+            "semi_final", "final"));
+        task1.Start();
         if (TeamScheduleInfo["semi_final"].Count % 2 == 1)
         {
-            TeamScheduleInfo["final"].Add(TeamScheduleInfo["semi_final"][^1]);
-            Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["quarter_final"][0].Loser, 
-                "prizers", "prizers");
+            Task task2 = new Task(() => Match(TeamScheduleInfo["semi_final"][2], 
+                MatchInfoSchedule["quarter_final"][0].Loser, "semi_final", "final"));
+            task2.Start();
+            Task.WaitAll(task1, task2);
         }
         else
         {
-            Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], "semi_final", 
-            "final");
-            Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["semi_final"][1].Loser, 
-                "prizers", "prizers");
+            Task task2 = new Task(() => Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], 
+                "semi_final", "final"));
+            task2.Start();
+            Task.WaitAll(task1, task2);
         }
+        
+        Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["semi_final"][1].Loser, 
+            "prizers", "prizers");
 
         MatchInfoSchedule["prizers"][0].Loser.TeamTournamentPlace = 4;
         MatchInfoSchedule["prizers"][0].Winner.TeamTournamentPlace = 3;
@@ -164,8 +175,5 @@ public class Tournament
         {
             Winners.Add(team.TeamTournamentPlace, team);
         }
-
-        Console.ReadKey();
-        Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
     }
 }

@@ -61,7 +61,8 @@ internal class Program
             }
 
             Console.WriteLine("Rozpoczynamy turniej!");
-            _tournament.StartTournament();
+            Task tournament = Task.Run(() => _tournament.StartTournament());
+            Task.WaitAll(tournament);
             Console.WriteLine("Turniej już się skończył.");
         }
         else
@@ -136,7 +137,7 @@ internal class Program
         while (!exit)
         {
             Console.Clear();
-            Console.WriteLine("=== Turniej Siatkarski ===");
+            Console.WriteLine("   --   Turniej Siatkarski   --   ");
             Console.WriteLine("1. Wyświetl wszystkie drużyny");
             Console.WriteLine("2. Wyświetl informacje o graczu lub trenerze z pewnej drużyny");
             Console.WriteLine("3. Dodaj drużynę z rezerwy");
@@ -172,6 +173,5 @@ internal class Program
             }
         }
         Console.WriteLine("Dziękujemy za skorzystanie z aplikacji. Do zobaczenia!");
-        Console.ReadKey();
     }
 }
