@@ -1,4 +1,4 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1.Models;
 
 // Class for saving, processing and preserving the information about the match, also contains several methods for
 // generating random match outcomes for testign purposes

@@ -1,4 +1,4 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1.Models;
 
 // Team class, that contains all the necessary information about the Players, Manager and their achievements, 
 // also can be used for getting some information about the specific Player via his/her position or surname

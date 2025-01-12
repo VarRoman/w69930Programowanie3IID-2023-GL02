@@ -1,4 +1,6 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿using Projekt1.Models;
+
+namespace Projekt1.Models;
 using System;
 using System.Threading.Tasks;
 

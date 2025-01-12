@@ -1,0 +1,9 @@
+﻿@model Dictionary<int, Projekt1.Models.Team>
+
+<h1>Wyniki turnieju:</h1>
+<ul>
+    @foreach (var winner in Model)
+    {
+    <li>Miejsce @winner.Key: @winner.Value.TeamName</li>
+    }
+</ul>

@@ -1,4 +1,4 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1.Models;
 
 // Abstract class for Manager and Player, to not rewrite the same properties and for compatibility in the List objects
 public abstract class Person

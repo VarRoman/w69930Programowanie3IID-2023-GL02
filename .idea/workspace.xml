@@ -20,89 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cacbee7-b3b2-43f2-968e-0ad300ccea3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/.idea.BlazorApp1.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/.idea.BlazorApp1.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/.idea.BlazorApp1.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/.idea.BlazorApp1.dir/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/.idea.BlazorApp1.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/.idea/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/MatchInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/MatchInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/Team.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BasicObjects/Tournament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/BasicObjects/Tournament.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/BlazorApp1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Layout/MainLayout.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Layout/MainLayout.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Layout/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Layout/NavMenu.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Pages/Counter.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Pages/Error.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Pages/Home.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Pages/Weather.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/Routes.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Components/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Folder.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/BlazorApp1.staticwebassets.runtime.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/bin/Debug/net8.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/BlazorApp1.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/BlazorApp1.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/BlazorApp1.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/ref/BlazorApp1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/refint/BlazorApp1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/scopedcss/bundle/BlazorApp1.styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets/msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorApp1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorApp1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorApp1.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/wwwroot/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/wwwroot/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/wwwroot/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/BlazorApp1/wwwroot/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekt/Projekt_Roman_Bezshchasnyi_w69930.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt1/Controllers/TournamentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt1/Models/Data.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt1/Views/Tournament/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt1/Views/Tournament/Results.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/.idea/.idea.Projekt1.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/.idea/.idea.Projekt1.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/MatchInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/MatchInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/Team.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/BasicObjects/Tournament.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/Models/Tournament.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/obj/Debug/net8.0/Projekt1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/obj/Debug/net8.0/Projekt1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/obj/Debug/net8.0/Projekt1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/obj/Debug/net8.0/Projekt1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt1/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +82,7 @@
     <setting file="file://$PROJECT_DIR$/Projekt1.1/BasicObjects/Team.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Projekt1.1/BasicObjects/Tournament.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Projekt1.1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Projekt1/Models/Data.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -169,19 +103,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Lab2.exe.executor": "Run",
-    ".NET Project.Lab2.executor": "Run",
-    ".NET Project.Lab4.executor": "Run",
-    "HTTP Request.WebApplication1 | #1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "project-branch",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt1",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Lab2.exe.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab2.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Lab4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.WebApplication1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project-branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bezsh/Desktop/For_studying/Polską uniwersitecia/3 semester/Programowanie/w69930Programowanie3IID-2023-GL02/Projekt1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="HTTP Request.WebApplication1 | #1">
     <configuration name="Lab2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Lab2/bin/Debug/net8.0/Lab2.exe" />
@@ -475,6 +409,7 @@
       <workItem from="1736013662182" duration="423000" />
       <workItem from="1736631597825" duration="80000" />
       <workItem from="1736638630987" duration="432000" />
+      <workItem from="1736639670688" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Corrected some moments in the project files of laboratorium #2-3 and finished laboratorium #4">
       <option name="closed" value="true" />

@@ -1,4 +1,4 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1.Models;
 using System.Globalization;
 // Player class that has all information about the specific player in each team with two dictionaries 
 // and 3 methods for statistical information (and one override method)

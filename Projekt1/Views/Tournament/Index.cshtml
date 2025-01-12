@@ -1,0 +1,11 @@
+﻿@model Projekt1.Models.Tournament
+
+<h1>Drużyny</h1>
+<ul>
+    @foreach (var team in Model.TeamScheduleInfo["first_cycle"])
+    {
+        <li>@team.TeamName</li>
+    }
+</ul>
+
+<a href="/Tournament/StartTournament">Rozpoczynamy turniej!</a>
