@@ -1,4 +1,5 @@
 ﻿namespace Projekt1._1;
+using System.Collections.Generic;
 using BasicObjects;
 
 internal class Program

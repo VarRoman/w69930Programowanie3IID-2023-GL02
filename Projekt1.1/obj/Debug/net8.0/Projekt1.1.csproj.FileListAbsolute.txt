@@ -13,3 +13,16 @@ C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowan
 C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.pdb
 C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.genruntimeconfig.cache
 C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\ref\Projekt1.1.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.csproj.AssemblyReference.cache
+C:\Users\bezsh\Desktop\For_studying\Polską uniwersitecia\3 semester\Programowanie\w69930Programowanie3IID-2023-GL02\Projekt1.1\obj\Debug\net8.0\Projekt1.1.csproj.Up2Date

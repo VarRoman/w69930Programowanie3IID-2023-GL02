@@ -50,7 +50,7 @@ public class Tournament
 
     
     // One of the main methods, which also is used for multithreading
-    public void Match(Team firstTeam, Team secondTeam, string cycleDestination)
+    public void Match(Team firstTeam, Team secondTeam, string currentcycleDestinatination, string cycleDestination)
     {
         MatchInfo match = new MatchInfo(firstTeam, secondTeam);
         if (cycleDestination == "prizers")
@@ -62,7 +62,7 @@ public class Tournament
         {
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
         }
-        MatchInfoSchedule[cycleDestination].Add(match);
+        MatchInfoSchedule[currentcycleDestinatination].Add(match);
     }
     
     
@@ -75,9 +75,11 @@ public class Tournament
         {
             var i1 = i;
             Thread thread1 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][i1 * 4], 
-                TeamScheduleInfo["first_cycle"][i1 * 4 + 1], "quarter_final"));
+                        TeamScheduleInfo["first_cycle"][i1 * 4 + 1], "first_cycle", 
+                        "quarter_final"));
             Thread thread2 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][i1 * 4 + 2], 
-                TeamScheduleInfo["first_cycle"][i1 * 4 + 3], "quarter_final"));
+                        TeamScheduleInfo["first_cycle"][i1 * 4 + 3], "first_cycle", 
+                        "quarter_final"));
 
             thread1.Start();
             thread2.Start();
@@ -89,7 +91,7 @@ public class Tournament
         if (TeamScheduleInfo["first_cycle"].Count % 4 > 1)
         {
             Thread thread1 = new Thread(() => Match(TeamScheduleInfo["first_cycle"][^1],
-                TeamScheduleInfo["first_cycle"][^2], "quarter_final"));
+                TeamScheduleInfo["first_cycle"][^2], "first_cycle", "quarter_final"));
             if (TeamScheduleInfo["first_cycle"].Count % 4 - 2 == 1)
             {
                 TeamScheduleInfo["quarter_final"].Add(TeamScheduleInfo["first_cycle"][^3]);
@@ -108,7 +110,8 @@ public class Tournament
         {
             var i2 = i;
             Match(TeamScheduleInfo["quarter_final"][i2 * 2], 
-                TeamScheduleInfo["quarter_final"][i2 * 2 + 1], "semi_final");
+                TeamScheduleInfo["quarter_final"][i2 * 2 + 1], "quarter_final", 
+                "semi_final");
         }
 
         if (TeamScheduleInfo["quarter_final"].Count % 2 == 1)
@@ -120,26 +123,37 @@ public class Tournament
         TeamScheduleInfo["semi_final"] = TeamScheduleInfo["semi_final"].OrderBy(x => rnd.Next()).ToList();
         
         // semi_final -> final and final
-        Match(TeamScheduleInfo["semi_final"][0], TeamScheduleInfo["semi_final"][1], "final");
+        Match(TeamScheduleInfo["semi_final"][0], TeamScheduleInfo["semi_final"][1], "semi_final", 
+            "final");
         if (TeamScheduleInfo["semi_final"].Count % 2 == 1)
         {
             TeamScheduleInfo["final"].Add(TeamScheduleInfo["semi_final"][^1]);
             Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["quarter_final"][0].Loser, 
-                "prizers");
+                "prizers", "prizers");
         }
         else
         {
-            Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], "final");
+            Match(TeamScheduleInfo["semi_final"][2], TeamScheduleInfo["semi_final"][3], "semi_final", 
+            "final");
             Match(MatchInfoSchedule["semi_final"][0].Loser, MatchInfoSchedule["semi_final"][1].Loser, 
-                "prizers");
+                "prizers", "prizers");
         }
+
+        MatchInfoSchedule["prizers"][0].Loser.TeamTournamentPlace = 4;
+        MatchInfoSchedule["prizers"][0].Winner.TeamTournamentPlace = 3;
+        TeamScheduleInfo["prizers"].Remove(MatchInfoSchedule["prizers"][0].Loser);
         
-        Match(TeamScheduleInfo["final"][0], TeamScheduleInfo["final"][1], "prizers");
         
+        Match(TeamScheduleInfo["final"][0], TeamScheduleInfo["final"][1], "final", 
+            "prizers");
+        
+        MatchInfoSchedule["final"][0].Loser.TeamTournamentPlace = 2;
+        MatchInfoSchedule["final"][0].Winner.TeamTournamentPlace = 1;
         
         // setting the winners
-        Winners.Add(3, TeamScheduleInfo["prizers"][0]);
-        Winners.Add(2, TeamScheduleInfo["prizers"][2]);
-        Winners.Add(1, TeamScheduleInfo["prizers"][1]);
+        foreach (Team team in TeamScheduleInfo["prizers"])
+        {
+            Winners.Add(team.TeamTournamentPlace, team);
+        }
     }
 }
