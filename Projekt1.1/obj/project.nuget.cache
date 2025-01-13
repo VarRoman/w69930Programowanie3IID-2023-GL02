@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rAtzkANd5j0=",
+  "dgSpecHash": "7Ux9Ho4f4RQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\bezsh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\bezsh\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
     "C:\\Users\\bezsh\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\bezsh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\bezsh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
   ],
   "logs": []

@@ -1,11 +1,13 @@
-﻿namespace Projekt1._1;
+﻿using Newtonsoft.Json;
+
+namespace Projekt1._1;
 using System.Collections.Generic;
 using BasicObjects;
 
 internal class Program
 {
     private static Data _data = new Data();
-    private static List<Team> _teams = _data.Teams;
+    public static List<Team> _teams = _data.Teams;
     private static Tournament _tournament = new Tournament();
 
     private static void ShowTeams()
@@ -140,6 +142,8 @@ internal class Program
 
     public static void Main(string[] args)
     {
+        _data.LoadData();
+        
         bool exit = false;
         while (!exit)
         {
@@ -150,6 +154,8 @@ internal class Program
             Console.WriteLine("3. Dodaj drużynę z rezerwy");
             Console.WriteLine("4. Rozpocznij turniej");
             Console.WriteLine("5. Wyświetl wyniki");
+            Console.WriteLine("6. Zapisz dane do pliku");
+            Console.WriteLine("7. Wczytaj dane z pliku");
             Console.WriteLine("0. Wyjdź");
             Console.Write("Wybierz opcję: ");
 
@@ -171,7 +177,16 @@ internal class Program
                 case "5":
                     ShowResults();
                     break;
+                case "6":
+                    _data.SaveData();
+                    break;
+                case "7":
+                    _data.LoadData();
+                    _teams = _data.Teams;
+                    
+                    break;
                 case "0":
+                    _data.SaveData();
                     exit = true;
                     break;
                 default:
@@ -180,5 +195,6 @@ internal class Program
             }
         }
         Console.WriteLine("Dziękujemy za skorzystanie z aplikacji. Do zobaczenia!");
+        
     }
 }

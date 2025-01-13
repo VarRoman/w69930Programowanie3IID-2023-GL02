@@ -1,8 +1,10 @@
 ﻿namespace Projekt1._1;
 using BasicObjects;
+using Newtonsoft.Json;
+using System.IO;
 
 public class Data
-{
+{ 
     private List<Team> _teams = new List<Team>
     {
         new Team(
@@ -218,6 +220,8 @@ public class Data
             new Manager("Wojciech", "Rybak", 43, "M", "Warszawa", "Trener", "Smoki Warszawy", 60)
         )
     };
+    
+    private const string FileName = "data.json";
 
     public List<Team> Teams
     {
@@ -230,4 +234,44 @@ public class Data
         get => _reserveTeams;
         set => _reserveTeams.AddRange(value);
     }
+
+    public void SaveData()
+    {
+        Console.WriteLine("Zapisujemy dane...");
+        var dataToSave = new
+        {
+            Teams = _teams,
+            ReserveTeams = _reserveTeams
+        };
+
+        var json = JsonConvert.SerializeObject(dataToSave, Formatting.Indented);
+        File.WriteAllText(FileName, json);
+
+        Console.WriteLine("Dane zostały zapisane pomyślnie.");
+    }
+
+
+
+    public void LoadData()
+    {
+        if (File.Exists(FileName))
+        {
+            var json = File.ReadAllText(FileName);
+            var loadedData = JsonConvert.DeserializeObject<Dictionary<string, List<Team>>>(json);
+
+            if (loadedData != null)
+            {
+                _teams = loadedData["Teams"];
+                _reserveTeams = loadedData["ReserveTeams"];
+                Program._teams = _teams;
+
+                Console.WriteLine("Dane zostały wczytane pomyślnie.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Brak zapisanych danych do wczytania.");
+        }
+    }
+
 }
