@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1._1.BasicObjects;
 
 // Manager class for defining person who is responsible for bringing the team
 // on the competition(it can also be coach, tutor or teacher, but the class will be the same)

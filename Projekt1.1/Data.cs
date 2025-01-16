@@ -1,6 +1,5 @@
 ﻿namespace Projekt1._1;
 using BasicObjects;
-using System.IO;
 
 public class Data
 { 

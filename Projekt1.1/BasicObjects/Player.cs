@@ -1,4 +1,4 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projekt1._1.BasicObjects;
 using System.Globalization;
@@ -21,22 +21,29 @@ public class Player : Person
         { "Serves", 0 },
         { "Blocks", 0 }
     };
+    
+    public Player() { }
 
     
     // The constructor of the Manager class
+    [System.Text.Json.Serialization.JsonConstructor]
     public Player(string name, string surname, int age, string gender, string wherefrom, string qualification, 
         string teamName, Dictionary<string, double> statistics = null, Dictionary<string, int> points = null) 
         : base(name, surname, age, gender, wherefrom, qualification, teamName)
     {
-        if (statistics != null)
+        PlayerInformationStatistics = statistics ?? new Dictionary<string, double>
         {
-            PlayerInformationStatistics = statistics;
-        }
+            { "Attacks", 0 },
+            { "Receives", 0 },
+            { "Serves", 0 },
+        };
 
-        if (points != null)
+        PlayerInformationPoints = points ?? new Dictionary<string, int>
         {
-            PlayerInformationPoints = points;
-        }
+            { "Attacks", 0 },
+            { "Serves", 0 },
+            { "Blocks", 0 }
+        };
     }
     
     

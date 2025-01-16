@@ -5,19 +5,23 @@
 public class Team
 {
     // Some general properties for Team class
-    public string TeamName { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; }
     public Manager TeamManager { get; set; }
     public int TeamTournamentPlace { get; set; }
     public string TeamRegistrationPlace { get; set; }
     public string[] TeamSponsors { get; set; }
+    public List<Player> Players { get; set; }
     public Dictionary<string, Player> TeamDictionary { get; set; }
     
+    public Team() { }
+
     // The constructor of the Team class
     [System.Text.Json.Serialization.JsonConstructor]
-    public Team(string teamName, string[] teamSponsors, string teamRegistrationPlace, Player setter, Player outside1,
+    public Team(string name, string[] teamSponsors, string teamRegistrationPlace, Player setter, Player outside1,
         Player outside2, Player opposite, Player libero, Player middle1, Player middle2, Manager teamManager)
     {
-        TeamName = teamName;
+        Name = name;
         TeamSponsors = teamSponsors;
         TeamRegistrationPlace = teamRegistrationPlace;
         TeamManager = teamManager;
