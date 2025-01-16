@@ -1,11 +1,10 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Projekt1._1.BasicObjects;
+﻿namespace Projekt1._1.BasicObjects;
 
 // Abstract class for Manager and Player, to not rewrite the same properties and for compatibility in the List objects
 public abstract class Person
 {
     // Basic properties for Person, Player, Manager
+    public int Id { get; set; }
     public string Name { get; set; }
     public string Surname { get; set; }
     public int Age { get; set; }
@@ -13,6 +12,8 @@ public abstract class Person
     public string Wherefrom { get; set; }
     public string Qualification { get; set; }
     public string TeamName { get; set; }
+    public Team Team { get; set; }
+    public int TeamId { get; set; }
     
     
     // The constructor of the Person class
@@ -28,7 +29,13 @@ public abstract class Person
         TeamName = teamName;
     }
     
-    
+    // An empty constructor
+    protected Person()
+    {
+        throw new NotImplementedException();
+    }
+
+
     // Virtual method for classes Player and Manager to improve it later
     public virtual string GetOverallInformation()
     {

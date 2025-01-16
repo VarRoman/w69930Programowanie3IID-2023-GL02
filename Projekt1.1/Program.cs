@@ -1,4 +1,6 @@
-﻿namespace Projekt1._1;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Projekt1._1;
 using System.Collections.Generic;
 using BasicObjects;
 
@@ -7,19 +9,21 @@ internal class Program
     private static Data _data = new Data();
     public static List<Team> _teams = _data.Teams;
     private static Tournament _tournament = new Tournament();
-
+    
+    // Method for showing the list of teams, that will be participating in tournament
     private static void ShowTeams()
     {
         Console.Clear();
         Console.WriteLine("Lista drużyn:");
         for (int i = 0; i < _teams.Count; i++)
         {
-            Console.WriteLine($"{i}. {_teams[i].TeamName}");
+            Console.WriteLine($"{i}. {_teams[i].Name}");
         }
         Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
         Console.ReadKey();
     }
 
+    // Method for adding the team from reserve 
     private static void AddTeam()
     {
         Console.Clear();
@@ -29,7 +33,7 @@ internal class Program
             var reserveTeams = _data.ReserveTeams;
             for (int i = 0; i < reserveTeams.Count; i++)
             {
-                Console.WriteLine($"{i + 1}. {reserveTeams[i].TeamName}");
+                Console.WriteLine($"{i + 1}. {reserveTeams[i].Name}");
             }
             Console.Write("Wybierz numer drużyny: ");
             if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= reserveTeams.Count)
@@ -38,7 +42,7 @@ internal class Program
                 if (!_teams.Contains(selectedTeam))
                 {
                     _teams.Add(selectedTeam);
-                    Console.WriteLine($"Drużyna {selectedTeam.TeamName} została dodana do turnieju.");
+                    Console.WriteLine($"Drużyna {selectedTeam.Name} została dodana do turnieju.");
                 }
                 else
                 {
@@ -58,6 +62,7 @@ internal class Program
         }
     }
 
+    // Method for starting the tournament
     private static void StartTournament()
     {
         if (_tournament.Winners.Count == 0)
@@ -80,21 +85,23 @@ internal class Program
         Console.ReadKey();
     }
 
+    // Method for showing the teams, who won
     private static void ShowResults()
     {
         Console.Clear();
         Console.WriteLine("Wyniki turnieju:");
         if (_tournament.Winners.ContainsKey(1))
         {
-            Console.WriteLine($"Miejsce 1: {_tournament.Winners[1].TeamName}");
-            Console.WriteLine($"Miejsce 2: {_tournament.Winners[2].TeamName}");
-            Console.WriteLine($"Miejsce 3: {_tournament.Winners[3].TeamName}");
+            Console.WriteLine($"Miejsce 1: {_tournament.Winners[1].Name}");
+            Console.WriteLine($"Miejsce 2: {_tournament.Winners[2].Name}");
+            Console.WriteLine($"Miejsce 3: {_tournament.Winners[3].Name}");
         }
 
         Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
         Console.ReadKey();
     }
 
+    // Method for showing statistics information about the players
     private static void ShowPlayerStatistics()
     {
         Console.Clear();
@@ -102,14 +109,14 @@ internal class Program
         Console.WriteLine("Wybierz drużynę:");
         for (int i = 0; i < _teams.Count; i++)
         {
-            Console.WriteLine($"{i + 1}. {_teams[i].TeamName}");
+            Console.WriteLine($"{i + 1}. {_teams[i].Name}");
         }
         
         Console.Write("Wybierz numer drużyny: ");
         if (int.TryParse(Console.ReadLine(), out int teamChoice) && teamChoice > 0 && teamChoice <= _teams.Count)
         {
             var selectedTeam = _teams[teamChoice - 1];
-            Console.WriteLine($"Wybrano drużynę: {selectedTeam.TeamName}\n");
+            Console.WriteLine($"Wybrano drużynę: {selectedTeam.Name}\n");
             
             Console.WriteLine("Wybierz zawodnika:");
             var players = new[] { "Setter", "Outside1", "Outside2", "Opposite", "Libero", "Middle1", "Middle2" };
@@ -137,9 +144,57 @@ internal class Program
         Console.WriteLine("\nKliknij dowolny klawisz, aby kontynuować...");
         Console.ReadKey();
     }
+    
+    // Method for saving the results in Database
+    private static void SaveTournamentResultsToDatabase()
+    {
+        using (var context = new VolleyballContext())
+        {
+            if (_tournament == null)
+            {
+                Console.WriteLine("Турнір не ініціалізовано.");
+                return;
+            }
 
+            // Checking if tournament is on track
+            var trackedTournament = context.Tournaments.Local.FirstOrDefault(t => t.Id == _tournament.Id);
+            if (trackedTournament != null)
+            {
+                context.Entry(trackedTournament).State = EntityState.Detached;
+            }
+
+            // Adding or removing tournament
+            var existingTournament = context.Tournaments.FirstOrDefault(t => t.Id == _tournament.Id);
+            if (existingTournament == null)
+            {
+                context.Tournaments.Add(_tournament);
+            }
+            else
+            {
+                context.Tournaments.Update(_tournament);
+            }
+
+            context.SaveChanges();
+            Console.WriteLine("Турнір успішно збережено.");
+
+            // Adding match
+            foreach (var match in _tournament.MatchInfoSchedule.Values.SelectMany(m => m))
+            {
+                if (match == null) continue;
+
+                match.TournamentId = _tournament.Id;
+                context.Matches.Add(match);
+            }
+
+            context.SaveChanges();
+            Console.WriteLine("Матчі успішно збережені.");
+        }
+    }
+
+    // Main method for this console program project
     public static void Main(string[] args)
     {
+        _tournament.Name = "Toruniej";
         bool exit = false;
         while (!exit)
         {
@@ -150,8 +205,7 @@ internal class Program
             Console.WriteLine("3. Dodaj drużynę z rezerwy");
             Console.WriteLine("4. Rozpocznij turniej");
             Console.WriteLine("5. Wyświetl wyniki");
-            Console.WriteLine("6. Zapisz dane do pliku");
-            Console.WriteLine("7. Wczytaj dane z pliku");
+            Console.WriteLine("6. Zapisz dane do bazy");
             Console.WriteLine("0. Wyjdź");
             Console.Write("Wybierz opcję: ");
 
@@ -172,6 +226,9 @@ internal class Program
                     break;
                 case "5":
                     ShowResults();
+                    break;
+                case "6":
+                    SaveTournamentResultsToDatabase();
                     break;
                 case "0":
                     exit = true;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj": {}
+    "C:\\Users\\bezsh\\Desktop\\For_studying\\Polska_uniwersitecia\\3_semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj": {
+    "C:\\Users\\bezsh\\Desktop\\For_studying\\Polska_uniwersitecia\\3_semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj",
+        "projectUniqueName": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polska_uniwersitecia\\3_semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj",
         "projectName": "Projekt1.1",
-        "projectPath": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj",
+        "projectPath": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polska_uniwersitecia\\3_semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\Projekt1.1.csproj",
         "packagesPath": "C:\\Users\\bezsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polską uniwersitecia\\3 semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\obj\\",
+        "outputPath": "C:\\Users\\bezsh\\Desktop\\For_studying\\Polska_uniwersitecia\\3_semester\\Programowanie\\w69930Programowanie3IID-2023-GL02\\Projekt1.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,7 +51,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
