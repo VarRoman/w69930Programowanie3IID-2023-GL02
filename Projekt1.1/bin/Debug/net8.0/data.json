@@ -1,0 +1,2470 @@
+{
+  "Teams": [
+    {
+      "TeamName": "Wilki Warszawy",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 36,
+        "Name": "Jakub",
+        "Surname": "Zieliński",
+        "Age": 35,
+        "Gender": "M",
+        "Wherefrom": "Warszawa",
+        "Qualification": "Trener",
+        "TeamName": "Wilki Warszawy"
+      },
+      "TeamTournamentPlace": 2,
+      "TeamRegistrationPlace": "Warszawa",
+      "TeamSponsors": [
+        "Sponsor1",
+        "Sponsor2"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Jan",
+          "Surname": "Kowalski",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 22,
+            "Serves": 22,
+            "Blocks": 33
+          },
+          "Name": "Piotr",
+          "Surname": "Nowak",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 25,
+            "Serves": 29,
+            "Blocks": 26
+          },
+          "Name": "Tomasz",
+          "Surname": "Wiśniewski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Krzysztof",
+          "Surname": "Wójcik",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 24,
+            "Serves": 37,
+            "Blocks": 20
+          },
+          "Name": "Marek",
+          "Surname": "Dąbrowski",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 23,
+            "Serves": 30,
+            "Blocks": 22
+          },
+          "Name": "Adam",
+          "Surname": "Kamiński",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Wilki Warszawy"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 31,
+            "Serves": 29,
+            "Blocks": 23
+          },
+          "Name": "Paweł",
+          "Surname": "Lewandowski",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Warszawy"
+        }
+      }
+    },
+    {
+      "TeamName": "Lwy Krakowa",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 48,
+        "Name": "Michał",
+        "Surname": "Zieliński",
+        "Age": 38,
+        "Gender": "M",
+        "Wherefrom": "Kraków",
+        "Qualification": "Trener",
+        "TeamName": "Lwy Krakowa"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Kraków",
+      "TeamSponsors": [
+        "Sponsor3",
+        "Sponsor4"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Anna",
+          "Surname": "Kowalczyk",
+          "Age": 26,
+          "Gender": "F",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 7,
+            "Blocks": 7
+          },
+          "Name": "Katarzyna",
+          "Surname": "Nowicka",
+          "Age": 23,
+          "Gender": "F",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 9,
+            "Serves": 6,
+            "Blocks": 11
+          },
+          "Name": "Julia",
+          "Surname": "Wiśniewska",
+          "Age": 28,
+          "Gender": "F",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Agnieszka",
+          "Surname": "Wójcik",
+          "Age": 31,
+          "Gender": "F",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 4,
+            "Serves": 4,
+            "Blocks": 6
+          },
+          "Name": "Magdalena",
+          "Surname": "Dąbrowska",
+          "Age": 24,
+          "Gender": "F",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 7,
+            "Serves": 7,
+            "Blocks": 7
+          },
+          "Name": "Joanna",
+          "Surname": "Kamińska",
+          "Age": 25,
+          "Gender": "F",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Lwy Krakowa"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 6,
+            "Serves": 8,
+            "Blocks": 11
+          },
+          "Name": "Zofia",
+          "Surname": "Lewandowska",
+          "Age": 30,
+          "Gender": "F",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Lwy Krakowa"
+        }
+      }
+    },
+    {
+      "TeamName": "Orły Poznania",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 60,
+        "Name": "Andrzej",
+        "Surname": "Nowak",
+        "Age": 40,
+        "Gender": "M",
+        "Wherefrom": "Poznań",
+        "Qualification": "Trener",
+        "TeamName": "Orły Poznania"
+      },
+      "TeamTournamentPlace": 3,
+      "TeamRegistrationPlace": "Poznań",
+      "TeamSponsors": [
+        "Sponsor5",
+        "Sponsor6"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Grzegorz",
+          "Surname": "Malinowski",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Poznania"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 30,
+            "Serves": 36,
+            "Blocks": 27
+          },
+          "Name": "Rafał",
+          "Surname": "Pawłowski",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orły Poznania"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 26,
+            "Serves": 22,
+            "Blocks": 25
+          },
+          "Name": "Michał",
+          "Surname": "Adamczyk",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Orły Poznania"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Szymon",
+          "Surname": "Wysocki",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Orły Poznania"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 19,
+            "Serves": 20,
+            "Blocks": 19
+          },
+          "Name": "Jakub",
+          "Surname": "Szymczak",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Poznania"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 32,
+            "Serves": 29,
+            "Blocks": 33
+          },
+          "Name": "Bartłomiej",
+          "Surname": "Górski",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orły Poznania"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 25,
+            "Serves": 26,
+            "Blocks": 17
+          },
+          "Name": "Damian",
+          "Surname": "Kaczmarek",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Poznania"
+        }
+      }
+    },
+    {
+      "TeamName": "Smoki Łodzi",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 48,
+        "Name": "Wojciech",
+        "Surname": "Lewandowski",
+        "Age": 37,
+        "Gender": "M",
+        "Wherefrom": "Łódź",
+        "Qualification": "Trener",
+        "TeamName": "Smoki Łodzi"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Łódź",
+      "TeamSponsors": [
+        "Sponsor7",
+        "Sponsor8"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Aleksandra",
+          "Surname": "Zielińska",
+          "Age": 25,
+          "Gender": "F",
+          "Wherefrom": "Łódź",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 7,
+            "Serves": 2,
+            "Blocks": 6
+          },
+          "Name": "Natalia",
+          "Surname": "Kwiatkowska",
+          "Age": 22,
+          "Gender": "F",
+          "Wherefrom": "Poznań",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 13,
+            "Serves": 5,
+            "Blocks": 12
+          },
+          "Name": "Monika",
+          "Surname": "Czerwińska",
+          "Age": 27,
+          "Gender": "F",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Paulina",
+          "Surname": "Zawadzka",
+          "Age": 30,
+          "Gender": "F",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 8,
+            "Blocks": 6
+          },
+          "Name": "Ewa",
+          "Surname": "Sadowska",
+          "Age": 23,
+          "Gender": "F",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 9,
+            "Serves": 9,
+            "Blocks": 6
+          },
+          "Name": "Beata",
+          "Surname": "Jankowska",
+          "Age": 24,
+          "Gender": "F",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Smoki Łodzi"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 8,
+            "Serves": 11,
+            "Blocks": 7
+          },
+          "Name": "Alicja",
+          "Surname": "Kozłowska",
+          "Age": 29,
+          "Gender": "F",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Łodzi"
+        }
+      }
+    },
+    {
+      "TeamName": "Pantery Wrocławia",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 36,
+        "Name": "Mariusz",
+        "Surname": "Stępień",
+        "Age": 41,
+        "Gender": "M",
+        "Wherefrom": "Wrocław",
+        "Qualification": "Trener",
+        "TeamName": "Pantery Wrocławia"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Wrocław",
+      "TeamSponsors": [
+        "Sponsor9",
+        "Sponsor10"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Karol",
+          "Surname": "Majewski",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Wrocław",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 17,
+            "Serves": 9,
+            "Blocks": 16
+          },
+          "Name": "Łukasz",
+          "Surname": "Ostrowski",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 13,
+            "Serves": 20,
+            "Blocks": 16
+          },
+          "Name": "Mateusz",
+          "Surname": "Sikorski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Rafał",
+          "Surname": "Zając",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 19,
+            "Serves": 17,
+            "Blocks": 17
+          },
+          "Name": "Wojciech",
+          "Surname": "Michalski",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 9,
+            "Serves": 10,
+            "Blocks": 14
+          },
+          "Name": "Patryk",
+          "Surname": "Borkowski",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Pantery Wrocławia"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 19,
+            "Serves": 15,
+            "Blocks": 15
+          },
+          "Name": "Sebastian",
+          "Surname": "Lis",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Pantery Wrocławia"
+        }
+      }
+    },
+    {
+      "TeamName": "Żubry Białegostoku",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 60,
+        "Name": "Jarosław",
+        "Surname": "Nowakowski",
+        "Age": 45,
+        "Gender": "M",
+        "Wherefrom": "Białystok",
+        "Qualification": "Trener",
+        "TeamName": "Żubry Białegostoku"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Białystok",
+      "TeamSponsors": [
+        "Sponsor11",
+        "Sponsor12"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Marcin",
+          "Surname": "Krawczyk",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Białystok",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 6,
+            "Serves": 6,
+            "Blocks": 6
+          },
+          "Name": "Dariusz",
+          "Surname": "Zieliński",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 6,
+            "Serves": 5,
+            "Blocks": 11
+          },
+          "Name": "Grzegorz",
+          "Surname": "Cieślak",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Ekspert",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Piotr",
+          "Surname": "Urban",
+          "Age": 31,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 6,
+            "Blocks": 8
+          },
+          "Name": "Tomasz",
+          "Surname": "Baran",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 11,
+            "Serves": 9,
+            "Blocks": 5
+          },
+          "Name": "Andrzej",
+          "Surname": "Nowicki",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Żubry Białegostoku"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 4,
+            "Blocks": 7
+          },
+          "Name": "Kamil",
+          "Surname": "Sawicki",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Żubry Białegostoku"
+        }
+      }
+    },
+    {
+      "TeamName": "Orlęta Gdańska",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 50,
+        "Name": "Zbigniew",
+        "Surname": "Jakubowski",
+        "Age": 43,
+        "Gender": "M",
+        "Wherefrom": "Gdańsk",
+        "Qualification": "Trener",
+        "TeamName": "Orlęta Gdańska"
+      },
+      "TeamTournamentPlace": 1,
+      "TeamRegistrationPlace": "Gdańsk",
+      "TeamSponsors": [
+        "Sponsor13",
+        "Sponsor14"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Maciej",
+          "Surname": "Sobczak",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 20,
+            "Serves": 26,
+            "Blocks": 32
+          },
+          "Name": "Krzysztof",
+          "Surname": "Malec",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 28,
+            "Serves": 21,
+            "Blocks": 26
+          },
+          "Name": "Bartłomiej",
+          "Surname": "Tomczyk",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Adrian",
+          "Surname": "Kołodziej",
+          "Age": 31,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Ekspert",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 21,
+            "Serves": 28,
+            "Blocks": 21
+          },
+          "Name": "Konrad",
+          "Surname": "Czajka",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 21,
+            "Serves": 27,
+            "Blocks": 19
+          },
+          "Name": "Marek",
+          "Surname": "Grabowski",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orlęta Gdańska"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 27,
+            "Serves": 35,
+            "Blocks": 30
+          },
+          "Name": "Wiktor",
+          "Surname": "Borowski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orlęta Gdańska"
+        }
+      }
+    },
+    {
+      "TeamName": "Jastrzębie Katowic",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 48,
+        "Name": "Przemysław",
+        "Surname": "Wróblewski",
+        "Age": 39,
+        "Gender": "M",
+        "Wherefrom": "Katowice",
+        "Qualification": "Trener",
+        "TeamName": "Jastrzębie Katowic"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Katowice",
+      "TeamSponsors": [
+        "Sponsor15",
+        "Sponsor16"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Damian",
+          "Surname": "Wolski",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Katowice",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 2,
+            "Blocks": 6
+          },
+          "Name": "Szymon",
+          "Surname": "Janik",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 2,
+            "Serves": 2,
+            "Blocks": 5
+          },
+          "Name": "Michał",
+          "Surname": "Pietrzak",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Igor",
+          "Surname": "Kulesza",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 1,
+            "Serves": 3,
+            "Blocks": 4
+          },
+          "Name": "Tadeusz",
+          "Surname": "Winiarski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 3,
+            "Blocks": 2
+          },
+          "Name": "Hubert",
+          "Surname": "Czech",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Jastrzębie Katowic"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 4,
+            "Serves": 6,
+            "Blocks": 1
+          },
+          "Name": "Tomasz",
+          "Surname": "Skiba",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Jastrzębie Katowic"
+        }
+      }
+    },
+    {
+      "TeamName": "Rekiny Szczecina",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 50,
+        "Name": "Kamil",
+        "Surname": "Witkowski",
+        "Age": 38,
+        "Gender": "M",
+        "Wherefrom": "Szczecin",
+        "Qualification": "Trener",
+        "TeamName": "Rekiny Szczecina"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Szczecin",
+      "TeamSponsors": [
+        "Sponsor17",
+        "Sponsor18"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Radosław",
+          "Surname": "Makowski",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 15,
+            "Serves": 6,
+            "Blocks": 13
+          },
+          "Name": "Dominik",
+          "Surname": "Szymański",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 15,
+            "Serves": 9,
+            "Blocks": 11
+          },
+          "Name": "Eryk",
+          "Surname": "Lisowski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Dawid",
+          "Surname": "Jasiński",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 13,
+            "Serves": 13,
+            "Blocks": 14
+          },
+          "Name": "Filip",
+          "Surname": "Kowal",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 7,
+            "Serves": 14,
+            "Blocks": 10
+          },
+          "Name": "Marek",
+          "Surname": "Gajewski",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Rekiny Szczecina"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 12,
+            "Serves": 10,
+            "Blocks": 9
+          },
+          "Name": "Michał",
+          "Surname": "Olejniczak",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Szczecina"
+        }
+      }
+    },
+    {
+      "TeamName": "Tygrysy Lublina",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 60,
+        "Name": "Wojciech",
+        "Surname": "Kozioł",
+        "Age": 41,
+        "Gender": "M",
+        "Wherefrom": "Lublin",
+        "Qualification": "Trener",
+        "TeamName": "Tygrysy Lublina"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Lublin",
+      "TeamSponsors": [
+        "Sponsor19",
+        "Sponsor20"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Karolina",
+          "Surname": "Sobolewska",
+          "Age": 26,
+          "Gender": "F",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 3,
+            "Serves": 4,
+            "Blocks": 7
+          },
+          "Name": "Natalia",
+          "Surname": "Głowacka",
+          "Age": 23,
+          "Gender": "F",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 5,
+            "Serves": 7,
+            "Blocks": 2
+          },
+          "Name": "Monika",
+          "Surname": "Krawczyk",
+          "Age": 28,
+          "Gender": "F",
+          "Wherefrom": "Kraków",
+          "Qualification": "Ekspert",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Joanna",
+          "Surname": "Krajewska",
+          "Age": 30,
+          "Gender": "F",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 8,
+            "Serves": 4,
+            "Blocks": 5
+          },
+          "Name": "Agnieszka",
+          "Surname": "Wilk",
+          "Age": 24,
+          "Gender": "F",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 3,
+            "Serves": 12,
+            "Blocks": 7
+          },
+          "Name": "Ewa",
+          "Surname": "Wysoka",
+          "Age": 25,
+          "Gender": "F",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Tygrysy Lublina"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 7,
+            "Serves": 8,
+            "Blocks": 10
+          },
+          "Name": "Zofia",
+          "Surname": "Czerny",
+          "Age": 29,
+          "Gender": "F",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Tygrysy Lublina"
+        }
+      }
+    },
+    {
+      "TeamName": "Sokoły Radomia",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 54,
+        "Name": "Jarosław",
+        "Surname": "Sroka",
+        "Age": 39,
+        "Gender": "M",
+        "Wherefrom": "Radom",
+        "Qualification": "Trener",
+        "TeamName": "Sokoły Radomia"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Radom",
+      "TeamSponsors": [
+        "Sponsor21",
+        "Sponsor22"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Paweł",
+          "Surname": "Śliwiński",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Radom",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 6,
+            "Serves": 3,
+            "Blocks": 2
+          },
+          "Name": "Marcin",
+          "Surname": "Zaręba",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 4,
+            "Serves": 6,
+            "Blocks": 5
+          },
+          "Name": "Krzysztof",
+          "Surname": "Leśniak",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Ekspert",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Bartosz",
+          "Surname": "Łuczak",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 4,
+            "Serves": 9,
+            "Blocks": 6
+          },
+          "Name": "Mateusz",
+          "Surname": "Raczyński",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 2,
+            "Serves": 4,
+            "Blocks": 4
+          },
+          "Name": "Jakub",
+          "Surname": "Wilczyński",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Sokoły Radomia"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 2,
+            "Serves": 5,
+            "Blocks": 4
+          },
+          "Name": "Adam",
+          "Surname": "Drabik",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Sokoły Radomia"
+        }
+      }
+    },
+    {
+      "TeamName": "Niedźwiedzie Torunia",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 48,
+        "Name": "Andrzej",
+        "Surname": "Borecki",
+        "Age": 42,
+        "Gender": "M",
+        "Wherefrom": "Toruń",
+        "Qualification": "Trener",
+        "TeamName": "Niedźwiedzie Torunia"
+      },
+      "TeamTournamentPlace": 4,
+      "TeamRegistrationPlace": "Toruń",
+      "TeamSponsors": [
+        "Sponsor23",
+        "Sponsor24"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Tomasz",
+          "Surname": "Kubicki",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Toruń",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 24,
+            "Serves": 19,
+            "Blocks": 14
+          },
+          "Name": "Grzegorz",
+          "Surname": "Dębski",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 26,
+            "Serves": 18,
+            "Blocks": 23
+          },
+          "Name": "Mariusz",
+          "Surname": "Olech",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Ekspert",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Damian",
+          "Surname": "Kulesza",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 19,
+            "Serves": 23,
+            "Blocks": 18
+          },
+          "Name": "Rafał",
+          "Surname": "Kościelny",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 28,
+            "Serves": 23,
+            "Blocks": 17
+          },
+          "Name": "Piotr",
+          "Surname": "Żuk",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Niedźwiedzie Torunia"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 19,
+            "Serves": 24,
+            "Blocks": 15
+          },
+          "Name": "Marek",
+          "Surname": "Florek",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Niedźwiedzie Torunia"
+        }
+      }
+    }
+  ],
+  "ReserveTeams": [
+    {
+      "TeamName": "Wilki Bydgoszczy",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 48,
+        "Name": "Andrzej",
+        "Surname": "Lewicki",
+        "Age": 40,
+        "Gender": "M",
+        "Wherefrom": "Bydgoszcz",
+        "Qualification": "Trener",
+        "TeamName": "Wilki Bydgoszczy"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Bydgoszcz",
+      "TeamSponsors": [
+        "Sponsor25",
+        "Sponsor26"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Maciej",
+          "Surname": "Grabowski",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Bydgoszcz",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Tomasz",
+          "Surname": "Zawadzki",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Toruń",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Karol",
+          "Surname": "Błaszczyk",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Damian",
+          "Surname": "Król",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Michał",
+          "Surname": "Kołodziej",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Sebastian",
+          "Surname": "Żukowski",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Wilki Bydgoszczy"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Rafał",
+          "Surname": "Kozioł",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Wilki Bydgoszczy"
+        }
+      }
+    },
+    {
+      "TeamName": "Orły Łodzi",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 54,
+        "Name": "Zbigniew",
+        "Surname": "Kowal",
+        "Age": 42,
+        "Gender": "M",
+        "Wherefrom": "Łódź",
+        "Qualification": "Trener",
+        "TeamName": "Orły Łodzi"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Łódź",
+      "TeamSponsors": [
+        "Sponsor27",
+        "Sponsor28"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Grzegorz",
+          "Surname": "Piątek",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Łodzi"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Mariusz",
+          "Surname": "Górka",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Szczecin",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orły Łodzi"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Krzysztof",
+          "Surname": "Sosnowski",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Orły Łodzi"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Paweł",
+          "Surname": "Jabłoński",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Ekspert",
+          "TeamName": "Orły Łodzi"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Radosław",
+          "Surname": "Lisowski",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Łodzi"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Łukasz",
+          "Surname": "Borkowski",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Orły Łodzi"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Adrian",
+          "Surname": "Kamiński",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Orły Łodzi"
+        }
+      }
+    },
+    {
+      "TeamName": "Rekiny Poznania",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 52,
+        "Name": "Rafał",
+        "Surname": "Kurek",
+        "Age": 39,
+        "Gender": "M",
+        "Wherefrom": "Poznań",
+        "Qualification": "Trener",
+        "TeamName": "Rekiny Poznania"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Poznań",
+      "TeamSponsors": [
+        "Sponsor29",
+        "Sponsor30"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Adam",
+          "Surname": "Czerwiński",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Piotr",
+          "Surname": "Szymczak",
+          "Age": 23,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Bartłomiej",
+          "Surname": "Urban",
+          "Age": 28,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Ekspert",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Dawid",
+          "Surname": "Nowakowski",
+          "Age": 31,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Konrad",
+          "Surname": "Kołodziej",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Eryk",
+          "Surname": "Sikora",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Toruń",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Rekiny Poznania"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Maciej",
+          "Surname": "Flis",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Rekiny Poznania"
+        }
+      }
+    },
+    {
+      "TeamName": "Smoki Warszawy",
+      "TeamManager": {
+        "CurrentTeamStandingMonths": 60,
+        "Name": "Wojciech",
+        "Surname": "Rybak",
+        "Age": 43,
+        "Gender": "M",
+        "Wherefrom": "Warszawa",
+        "Qualification": "Trener",
+        "TeamName": "Smoki Warszawy"
+      },
+      "TeamTournamentPlace": 0,
+      "TeamRegistrationPlace": "Warszawa",
+      "TeamSponsors": [
+        "Sponsor31",
+        "Sponsor32"
+      ],
+      "TeamDictionary": {
+        "Setter": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Tomasz",
+          "Surname": "Malinowski",
+          "Age": 25,
+          "Gender": "M",
+          "Wherefrom": "Warszawa",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Outside1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Jan",
+          "Surname": "Lewandowski",
+          "Age": 22,
+          "Gender": "M",
+          "Wherefrom": "Poznań",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Outside2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Sebastian",
+          "Surname": "Adamski",
+          "Age": 27,
+          "Gender": "M",
+          "Wherefrom": "Łódź",
+          "Qualification": "Ekspert",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Libero": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Łukasz",
+          "Surname": "Zieliński",
+          "Age": 30,
+          "Gender": "M",
+          "Wherefrom": "Gdańsk",
+          "Qualification": "Ekspert",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Opposite": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Radosław",
+          "Surname": "Wójcik",
+          "Age": 24,
+          "Gender": "M",
+          "Wherefrom": "Kraków",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Middle1": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Karol",
+          "Surname": "Mazur",
+          "Age": 26,
+          "Gender": "M",
+          "Wherefrom": "Toruń",
+          "Qualification": "Zaawansowany",
+          "TeamName": "Smoki Warszawy"
+        },
+        "Middle2": {
+          "PlayerInformationStatistics": {
+            "Attacks": 0.0,
+            "Receives": 0.0,
+            "Serves": 0.0
+          },
+          "PlayerInformationPoints": {
+            "Attacks": 0,
+            "Serves": 0,
+            "Blocks": 0
+          },
+          "Name": "Paweł",
+          "Surname": "Stankiewicz",
+          "Age": 29,
+          "Gender": "M",
+          "Wherefrom": "Lublin",
+          "Qualification": "Profesjonalista",
+          "TeamName": "Smoki Warszawy"
+        }
+      }
+    }
+  ]
+}

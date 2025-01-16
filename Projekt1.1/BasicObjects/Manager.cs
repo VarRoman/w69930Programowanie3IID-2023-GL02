@@ -1,17 +1,19 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿using System.Text.Json.Serialization;
+
+namespace Projekt1._1.BasicObjects;
 
 // Manager class for defining person who is responsible for bringing the team
 // on the competition(it can also be coach, tutor or teacher, but the class will be the same)
 public class Manager : Person
 {
     // Property for Manager's stage in moths (int)
-    private int CurrentTeamStandingMonths { get; set; }
+    public int CurrentTeamStandingMonths { get; set; }
     
     
     // The constructor of the Manager class
-    public Manager(string name, string surname, int age, string gender, string wherefrom, string qualification, 
-        string teamName, int currentTeamStandingMonths) : 
-        base(name, surname, age, gender, wherefrom, qualification, teamName)
+    public Manager(string name, string surname, int age, string gender, string wherefrom, string qualification,
+        string teamName, int currentTeamStandingMonths)
+        : base(name, surname, age, gender, wherefrom, qualification, teamName)
     {
         CurrentTeamStandingMonths = currentTeamStandingMonths;
     }

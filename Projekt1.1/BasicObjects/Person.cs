@@ -1,21 +1,23 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿using System.Text.Json.Serialization;
+
+namespace Projekt1._1.BasicObjects;
 
 // Abstract class for Manager and Player, to not rewrite the same properties and for compatibility in the List objects
 public abstract class Person
 {
     // Basic properties for Person, Player, Manager
-    private string Name { get; set; }
+    public string Name { get; set; }
     public string Surname { get; set; }
-    private int Age { get; set; }
-    private string Gender { get; set; }
-    private string Wherefrom {get; set;}
-    private string Qualification { get; set; }
-    private string TeamName { get; set; }
+    public int Age { get; set; }
+    public string Gender { get; set; }
+    public string Wherefrom { get; set; }
+    public string Qualification { get; set; }
+    public string TeamName { get; set; }
     
     
     // The constructor of the Person class
-    protected Person(string name, string surname, int age, string gender, string wherefrom, 
-        string qualification, string teamName)
+    protected Person(string name, string surname, int age, string gender, string wherefrom, string qualification, 
+        string teamName)
     {
         Name = name;
         Surname = surname;
@@ -38,5 +40,4 @@ public abstract class Person
                $"Qualification: {Qualification}\n" +
                $"Teamname: {TeamName}\n";
     }
-    
 }

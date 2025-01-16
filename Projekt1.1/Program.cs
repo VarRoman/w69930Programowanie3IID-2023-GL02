@@ -5,7 +5,7 @@ using BasicObjects;
 internal class Program
 {
     private static Data _data = new Data();
-    private static List<Team> _teams = _data.Teams;
+    public static List<Team> _teams = _data.Teams;
     private static Tournament _tournament = new Tournament();
 
     private static void ShowTeams()
@@ -150,6 +150,8 @@ internal class Program
             Console.WriteLine("3. Dodaj drużynę z rezerwy");
             Console.WriteLine("4. Rozpocznij turniej");
             Console.WriteLine("5. Wyświetl wyniki");
+            Console.WriteLine("6. Zapisz dane do pliku");
+            Console.WriteLine("7. Wczytaj dane z pliku");
             Console.WriteLine("0. Wyjdź");
             Console.Write("Wybierz opcję: ");
 
@@ -180,5 +182,6 @@ internal class Program
             }
         }
         Console.WriteLine("Dziękujemy za skorzystanie z aplikacji. Do zobaczenia!");
+        
     }
 }

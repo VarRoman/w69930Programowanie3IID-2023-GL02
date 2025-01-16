@@ -1,20 +1,21 @@
-﻿namespace Projekt1._1.BasicObjects;
+﻿using System.Text.Json.Serialization;
+
+namespace Projekt1._1.BasicObjects;
 using System.Globalization;
 // Player class that has all information about the specific player in each team with two dictionaries 
 // and 3 methods for statistical information (and one override method)
 public class Player : Person
-{ 
+{
     // Dictionary-property for general percentage of successful actions in each type of game technique
-    private Dictionary<string, double> _playerInfromationStatistics = new Dictionary<string, double>
+    public Dictionary<string, double> PlayerInformationStatistics { get; set; } = new Dictionary<string, double>()
     {
         { "Attacks", 0 },
         { "Receives", 0 },
         { "Serves", 0 },
     };
-    
-    
+
     // Dictionary-property for calculating and preserving the information about the points, that this Player gained
-    private Dictionary<string, int> _playerInfromationPoints = new Dictionary<string, int>
+    public Dictionary<string, int> PlayerInformationPoints { get; set; } = new Dictionary<string, int>()
     {
         { "Attacks", 0 },
         { "Serves", 0 },
@@ -24,17 +25,27 @@ public class Player : Person
     
     // The constructor of the Manager class
     public Player(string name, string surname, int age, string gender, string wherefrom, string qualification, 
-        string teamName) : base(name, surname, age, gender, wherefrom, qualification, teamName)
+        string teamName, Dictionary<string, double> statistics = null, Dictionary<string, int> points = null) 
+        : base(name, surname, age, gender, wherefrom, qualification, teamName)
     {
+        if (statistics != null)
+        {
+            PlayerInformationStatistics = statistics;
+        }
+
+        if (points != null)
+        {
+            PlayerInformationPoints = points;
+        }
     }
     
     
     // Statistical method for getting specific part of percentage information via key
     public double GetPlayerInformationStatistics(string key)
     {
-        if (_playerInfromationStatistics.ContainsKey(key))
+        if (PlayerInformationStatistics.ContainsKey(key))
         {
-            return _playerInfromationStatistics[key];
+            return PlayerInformationStatistics[key];
         }
         throw new ArgumentException("Invalid key provided.");
     }
@@ -43,9 +54,9 @@ public class Player : Person
     // Statistical method for getting specific part of points information via key
     public int GetPlayerInformationPoints(string key)
     {
-        if (_playerInfromationPoints.ContainsKey(key))
+        if (PlayerInformationPoints.ContainsKey(key))
         {
-            return _playerInfromationPoints[key];
+            return PlayerInformationPoints[key];
         }
         throw new ArgumentException("Invalid key provided.");
     }
@@ -55,9 +66,9 @@ public class Player : Person
     public int GetPlayerInformationPointsTotal()
     {
         int total = 0;
-        foreach (var key in _playerInfromationPoints.Keys)
+        foreach (var key in PlayerInformationPoints.Keys)
         {
-            total += _playerInfromationPoints[key];
+            total += PlayerInformationPoints[key];
         }
         return total;
     }
@@ -82,16 +93,16 @@ public class Player : Person
         double score = rnd.NextDouble();
         if (score < 0.33)
         {
-            _playerInfromationPoints["Serves"]++;
+            PlayerInformationPoints["Serves"]++;
         }
 
         if (score >= 0.33 && score < 0.66)
         {
-            _playerInfromationPoints["Blocks"]++;
+            PlayerInformationPoints["Blocks"]++;
         }
         if (score >= 0.66)
         {
-            _playerInfromationPoints["Attacks"]++;
+            PlayerInformationPoints["Attacks"]++;
         }
     }
 }

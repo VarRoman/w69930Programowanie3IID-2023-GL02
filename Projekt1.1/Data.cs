@@ -1,8 +1,9 @@
 ﻿namespace Projekt1._1;
 using BasicObjects;
+using System.IO;
 
 public class Data
-{
+{ 
     private List<Team> _teams = new List<Team>
     {
         new Team(
@@ -230,4 +231,5 @@ public class Data
         get => _reserveTeams;
         set => _reserveTeams.AddRange(value);
     }
+
 }

@@ -58,7 +58,7 @@ public class Tournament
     {
         MatchInfo match = new MatchInfo(firstTeam, secondTeam);
         Console.WriteLine($"\nGra {firstTeam.TeamName} : {secondTeam.TeamName} w procesie");
-        Thread.Sleep(2000);
+        Thread.Sleep(100);
         if (cycleDestination == "prizers")
         {
             TeamScheduleInfo[cycleDestination].Add(match.DoTheMatchAuto());
